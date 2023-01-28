@@ -1,0 +1,117 @@
+body, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "open sans";
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: rgba(195, 195, 195, 0.1);
+}
+h1 {
+    font-weight: 700;
+    color: rgb(202, 38, 38);
+}
+
+/* flex where we need */
+.container, #login-form, .col1, .col2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+}
+
+/* container general*/
+.container {
+    width: 450px;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: white;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.052);
+}
+
+/* form */
+.form-container {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.form-container input {
+    height: 3rem;
+    background-color:rgba(195, 195, 195, 0.3);
+    margin: 0.2rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+form {
+    margin-bottom: 0.5rem;
+}
+
+#ou {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 15% 1fr;
+}
+
+#ou hr {
+    border: solid 1px rgba(195, 195, 195);
+    height: 1px;
+    margin-top: 0.8rem;
+}
+
+#btn-submit {
+    background-color: rgb(202, 38,38);
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+
+}
+
+#btn-new button {
+    height: 2rem;
+    border-radius: 5px;
+    padding: 1.1rem 3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 0rem;
+    background-color: white;
+    border: solid rgb(207, 207, 207) 2px;
+}
+
+/* lang-list */
+.lang-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.lang-list a {
+    color: gray;
+}
+
+
+/* footer */
+.footer-link{
+    padding-left: 1.5rem;
+    font-size: 0.8rem;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    margin-bottom: 2rem;
+}
