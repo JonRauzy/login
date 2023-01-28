@@ -20,6 +20,8 @@ h1 {
     margin: 0.5rem 0;
 }
 
+
+/*                   ACCUEIL                      */
 /* flex where we need */
 .container, #login-form, .col1, .col2 {
     display: flex;
@@ -90,6 +92,24 @@ form {
     border: solid rgb(207, 207, 207) 2px;
 }
 
+/*                              BIENVENU                   */
+.welcome-container h1 {
+    margin-bottom: 3rem;
+}
+.welcome-container h2 {
+    margin-bottom: 0.5rem;
+}
+.welcome-container p{
+    margin-bottom: 2rem;
+}
+.welcome-container h3{
+    color:rgb(202, 38, 38);
+    
+    margin-bottom: 5rem;
+    text-decoration: underline;
+}
+
+/*                FOOTER                       */
 /* lang-list */
 .lang-list {
     display: grid;
