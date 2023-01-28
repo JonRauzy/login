@@ -17,6 +17,7 @@ body{
 h1 {
     font-weight: 700;
     color: rgb(202, 38, 38);
+    margin: 0.5rem 0;
 }
 
 /* flex where we need */
@@ -28,10 +29,10 @@ h1 {
 
 /* container general*/
 .container {
-    width: 450px;
+    width: 350px;
     margin: auto;
     padding: 0.5rem;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     background-color: white;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.052);
 }
@@ -93,7 +94,7 @@ form {
 .lang-list {
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-size: 0.9rem;
 }
 
@@ -104,12 +105,17 @@ form {
 
 /* footer */
 .footer-link{
-    padding-left: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
     font-size: 0.8rem;
-    width: 40%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 0.5rem;
+}
+.footer, .footer a {
+    color: gray;
 }
 
 .footer {

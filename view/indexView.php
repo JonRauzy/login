@@ -54,7 +54,7 @@
                 <a href="">Plus</a>
             </div>
             <p id="meta">Meta &copy;
-                <?ph date(Y)?>
+                <?= date("Y");?>
             </p>
         </div>
 
