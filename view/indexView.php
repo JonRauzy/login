@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +17,7 @@
     <div class="container">
         <div class="form-container">
             <h1>fightclub</h1>
-            <form action="" method="post" id="login-form">
+            <form action="" method="post" id="sub-form">
                 <input type="text" placeholder="E-mail ou nom d'utilisateur" name="login">
                 <input type="password" placeholder="mot de passe" name="pword">
                 <input type="submit" id="btn-submit" value="Se connecter">
@@ -27,9 +28,7 @@
                 <p>ou</p>
                 <hr>
             </div>
-            <a href="https://www.w3schools.com/html/html_symbols.asp" id="btn-new"><button>Créer nouveau
-                    compte</button></a>
-
+            <a href="?p=inscription" id="btn-new"><button>Créer nouveau compte</button></a>
         </div>
         <div class="lang-list">
             <div class="col1">
@@ -45,18 +44,8 @@
                 <a href="">Plus</a>
             </div>
         </div>
-        <div class="footer">
-            <div class="footer-link">
-                <a href="">A propos</a>
-                <p>.</p>
-                <a href="">Aide</a>
-                <p>.</p>
-                <a href="">Plus</a>
-            </div>
-            <p id="meta">Meta &copy;
-                <?= date("Y");?>
-            </p>
-        </div>
+      
+        <?php include_once '../view/include/footer.php' ?>
 
     </div>
 </body>

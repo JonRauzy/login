@@ -35,19 +35,9 @@
                 <a href="">Plus</a>
             </div>
         </div>
-        <div class="footer">
-            <div class="footer-link">
-                <a href="">A propos</a>
-                <p>.</p>
-                <a href="">Aide</a>
-                <p>.</p>
-                <a href="">Plus</a>
-            </div>
-            <p id="meta">Meta &copy;
-                <?= date("Y");?>
-            </p>
-        </div>
-
+        
+        <?php include_once '../view/include/footer.php' ?>
+        
     </div>
 </body>
 
