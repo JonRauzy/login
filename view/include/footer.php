@@ -6,7 +6,7 @@
                 <p>.</p>
                 <a href="">Plus</a>
             </div>
-            <p id="Sussmwa">Meta &copy;
+            <p id="Sussmwa">Sussmwa &copy;
                 <?= date("Y");?>
             </p>
         </div>

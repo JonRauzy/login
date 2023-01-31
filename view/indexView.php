@@ -28,7 +28,7 @@
                 <p>ou</p>
                 <hr>
             </div>
-            <a href="?p=inscription" id="btn-new"><button>Créer nouveau compte</button></a>
+            <a href="?p=sub" id="btn-new"><button>Créer nouveau compte</button></a>
         </div>
         <div class="lang-list">
             <div class="col1">
