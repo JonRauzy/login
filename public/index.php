@@ -8,6 +8,7 @@ if (isset($_POST['login'], $_POST['pword'])) {
     foreach ($resultFC as $item) {
         if ($_POST['login'] == $item['firstname'] && $_POST['pword'] == $item['pword']) {
             include_once '../view/validView.php';
+            break;
         } else {
             include_once '../view/noValidView.php';
         }
